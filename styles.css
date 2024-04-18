@@ -46,10 +46,29 @@
     font-family: "Open Sans";
 }
 
+.search-bar {
+    height: 35px;
+    width: 35%;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.search-button {
+    margin-top: 10px;
+}
+
 
 /* <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800 */
 
+/*
 .open-sans-<uniquifier> {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -57,3 +76,4 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+*/
