@@ -3,6 +3,7 @@
     overflow: hidden;
 }
 .navbar a {
+    color: #3c4043;
     float: right;
     display: block;
     text-align: center;
@@ -43,7 +44,7 @@
 }
 
 .search input {
-    font-family: "Open Sans";
+    font-family: "Open Sans", arial, sans-serif;
 }
 
 .search-bar {
@@ -53,15 +54,27 @@
     border: 1px solid lightgrey;
     margin-bottom: 10px;
     padding-left: 25px;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.2s ease;
 }
 
 .search-bar:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .search-button {
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+    color: #3c4043;
     margin-top: 10px;
+    height: 35px;
+    width: 125px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+
+.search-button:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 
