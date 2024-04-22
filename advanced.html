@@ -17,13 +17,19 @@
             <h2>
                 <span class="colorG">G</span><span class="coloro1">o</span><span class="coloro2">o</span><span class="colorG">g</span><span class="colorl">l</span><span class="colore">e</span>                    
             </h2>
-            <h2>
-                Advanced Search
-            </h2>
+        </div>
+        <div class="appbar">
+            <label style="margin-left:10px">Advanced Search</label>
         </div>
         <!-- Search Form -->
         <div class="search-advanced">
-            <form action="https://google.com/search" method="GET">
+            <form action="https://google.com/search" method="GET" class="form-advanced">
+                <div class="form-top">
+                    <span>Find pages with...</span>
+                    <span class="test">This should not appear</span>
+                    <span>To do this in the search box.</span>
+                </div>
+
                 <div class="form-row">
                     <label for="as_q">all these words:</label>
                     <input type="text" id="as_q" name="as_q">
@@ -42,13 +48,13 @@
                     <small>Type OR between all the words you want: miniature OR standard</small>
                 </div>
                 
-                <div class="form-row">
+                <div class="form-row" id="bottom-row">
                     <label for="as_eq">none of these words:</label>
                     <input type="text" id="as_eq" name="as_eq">
                     <small>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</small>
                 </div>
                 
-                <input type="submit" value="Google Search">
+                <input class="advanced-btn" type="submit" value="Google Search">
             </form>
         </div>
     </body>
