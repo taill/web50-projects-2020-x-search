@@ -24,21 +24,21 @@
         <!-- Search Form -->
         <div class="search-advanced">
             <form action="https://google.com/search" method="GET">
-                <label></label>
-                <input type="text" name="as_q">
-                <small></small>
+                <label for="as_q">all these words:</label>
+                <input type="text" id="as_q" name="as_q">
+                <small>Type the important words: tri-colour rat terrier</small>
 
-                <label></label>
-                <input type="text" name="as_epq">
-                <small></small>
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" id="as_epq" name="as_epq">
+                <small>Put exact words in quotes: "rat terrier"</small>
 
-                <label></label>
-                <input type="text" name="as_oq">
-                <small></small>
+                <label for="as_oq"></label>
+                <input type="text" id="as_oq" name="as_oq">
+                <small>any of these words:</small>
 
-                <label></label>
-                <input type="text" name="as_eq">
-                <small></small>
+                <label for="as_eq">none of these words:</label>
+                <input type="text" id="as_eq" name="as_eq">
+                <small>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</small>
 
                 <input type="submit" value="Google Search">
             </form>
