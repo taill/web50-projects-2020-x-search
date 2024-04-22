@@ -13,15 +13,33 @@
             <a href="index.html">Search</a>
         </div>
         <!-- Header -->
-        <div class="header">
-            <h1>
-                <span class="colorG">G</span><span class="coloro1">o</span><span class="coloro2">o</span><span class="colorG">g</span><span class="colorl">l</span><span class="colore">e</span>                
-            </h1>
+        <div class="header-sm">
+            <h2>
+                <span class="colorG">G</span><span class="coloro1">o</span><span class="coloro2">o</span><span class="colorG">g</span><span class="colorl">l</span><span class="colore">e</span>                    
+            </h2>
+            <h2>
+                Advanced Search
+            </h2>
         </div>
         <!-- Search Form -->
-        <div class="search">
-            <form action="https://google.com/search">
-                <input type="text" name="q">
+        <div class="search-advanced">
+            <form action="https://google.com/search" method="GET">
+                <label></label>
+                <input type="text" name="as_q">
+                <small></small>
+
+                <label></label>
+                <input type="text" name="as_epq">
+                <small></small>
+
+                <label></label>
+                <input type="text" name="as_oq">
+                <small></small>
+
+                <label></label>
+                <input type="text" name="as_eq">
+                <small></small>
+
                 <input type="submit" value="Google Search">
             </form>
         </div>
