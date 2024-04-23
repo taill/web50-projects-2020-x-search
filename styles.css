@@ -61,6 +61,10 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
+.search-bar:focus {
+    outline: 1px solid grey;
+}
+
 .search-button {
     background-color: #F8F9FA;
     border: 1px solid #F8F9FA;
