@@ -145,6 +145,10 @@
     border-bottom: 1px solid grey;
 }
 
+.adv-input:focus {
+    outline: 1px solid #4d90fe;
+}
+
 .advanced-btn {
     background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
     border: 1px solid #3079ed;
